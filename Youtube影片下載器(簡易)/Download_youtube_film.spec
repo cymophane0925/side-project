@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['Download', 'youtube', 'film.py'],
+a = Analysis(['Download_youtube_film.py'],
              pathex=['D:\\classitem\\side project\\Youtube影片下載器(簡易)'],
              binaries=[],
              datas=[],
@@ -23,7 +23,7 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='Download',
+          name='Download_youtube_film',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
